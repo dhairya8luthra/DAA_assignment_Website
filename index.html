@@ -225,20 +225,22 @@
     <!-- HEADER -->
     <header>
       <h1>DAA Website - Clique Distributions</h1>
-      <p>Comparative results for Chiba, ELS, and Bronski papers</p>
+      <p>Comparative results for Chiba, ELS, and Tomita papers</p>
     </header>
 
     <!-- TABS NAVIGATION -->
     <ul class="tabs">
-      <li class="tab-link active" data-tab="tab-chiba">Chiba Paper</li>
-      <li class="tab-link" data-tab="tab-els">ELS Paper</li>
-      <li class="tab-link" data-tab="tab-bronski">Bronski Paper</li>
+      <li class="tab-link active" data-tab="tab-chiba">Chiba</li>
+      <li class="tab-link" data-tab="tab-els">Tomita</li>
+      <li class="tab-link" data-tab="tab-bronski">
+        ELS
+      </li>
     </ul>
 
     <!-- TAB CONTENTS -->
     <!-- ========== CHIBA PAPER ========== -->
     <div id="tab-chiba" class="tab-content show">
-      <h2>Chiba Paper Results</h2>
+      <h2>Arboricity and Subgraph Listing Algorithms</h2>
 
       <section>
         <h3>Wiki-Vote</h3>
@@ -267,7 +269,10 @@
 
     <!-- ========== ELS PAPER ========== -->
     <div id="tab-els" class="tab-content">
-      <h2>ELS Paper Results</h2>
+      <h2>
+        The worst-case time complexity for generating all maximal cliques and
+        computational experiments
+      </h2>
 
       <section>
         <h3>Enron-Email</h3>
@@ -296,13 +301,15 @@
 
     <!-- ========== BRONSKI PAPER ========== -->
     <div id="tab-bronski" class="tab-content">
-      <h2>Bronski Paper Results</h2>
+      <h2>Listing All Maximal Cliques in Sparse Graphs in Near-optimal Time</h2>
 
       <section>
         <h3>Wiki-Vote</h3>
-        <p><strong>Total Number of Maximal Cliques:</strong> 8792</p>
+        <p><strong>Largest Clique Size:</strong> 17</p>
+        <p><strong>Total Number of Maximal Cliques:</strong>459002</p>
+
         <p>Distribution of Different Size Cliques:</p>
-        <img src="bro_wiki_vote.jpg" alt="Wiki-Vote Bronski Histogram" />
+        <img src="wiki_vote_bronsk.jpg" alt="Wiki-Vote Bronski Histogram" />
       </section>
 
       <section>
@@ -310,13 +317,13 @@
         <p><strong>Largest Clique Size:</strong> 20</p>
         <p><strong>Total Number of Maximal Cliques:</strong> 226859</p>
         <p>Distribution of Different Size Cliques:</p>
-        <img src="bro_email_enron.jpg" alt="Email-Enron Bronski Histogram" />
+        <img src="email_enron_bron.jpg" alt="Email-Enron Bronski Histogram" />
       </section>
 
       <section>
         <h3>As-Skitter</h3>
-        <p><strong>Largest Clique Size:</strong> 34</p>
-        <p><strong>Total Number of Maximal Cliques:</strong> 4360651</p>
+        <p><strong>Largest Clique Size:</strong> 67</p>
+        <p><strong>Total Number of Maximal Cliques:</strong> 35896507</p>
         <p>Distribution of Different Size Cliques:</p>
         <img src="bro_as_skitter.jpg" alt="As-Skitter Bronski Histogram" />
       </section>
